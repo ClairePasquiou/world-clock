@@ -1,5 +1,5 @@
 body {
- background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+ background: linear-gradient(-45deg, #ea76ac, #74efff, #9c27b0);
     background-size: 400% 400%;
     animation: gradient-bg 20s ease infinite;  font-family: sans-serif;
 }
@@ -20,11 +20,15 @@ body {
 h1 {
   text-align: center;
   font-size: 36px;
-}
+background: #957DD1;
+background: radial-gradient(ellipse farthest-corner at top left, #957DD1 48%, #7DEFF5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
 
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+
 }
 
 select {
@@ -64,6 +68,9 @@ select {
 .time {
   font-size: 48px;
   font-weight: bold;
+   background: -webkit-linear-gradient(#9c27b0, #74efff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .time small {
@@ -82,3 +89,6 @@ footer {
 font-size: 18px;
 color: rgba(0,0,0,0.8);
 }
+
+
+
